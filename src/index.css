@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -8,6 +8,25 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+/* formatting */
+@layer base {
+  a {
+    @apply cursor-pointer;
+  }
+  h3 {
+    @apply font-[500];
+  }
+}
 
 /* Navbar */
 
+/* Hero */
+.gradient-bg {
+  background: url("./assets/wave.svg") center bottom -0.5px / 100% 14% no-repeat
+      scroll padding-box border-box,
+    linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto
+      repeat scroll padding-box border-box rgb(82, 67, 170);
+}
+.box-shadow {
+  box-shadow: rgb(9 30 66 / 100%) 0px 0.5rem 1rem 0px;
+}
