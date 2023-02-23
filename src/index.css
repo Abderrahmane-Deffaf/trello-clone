@@ -19,7 +19,9 @@
 }
 
 /* Navbar */
-
+.shadow {
+  box-shadow: rgb(9 30 66 / 15%) 0px 0.5rem 1rem 0px;
+}
 /* Hero */
 .gradient-bg {
   background: url("./assets/wave.svg") center bottom -0.5px / 100% 14% no-repeat
@@ -29,4 +31,25 @@
 }
 .box-shadow {
   box-shadow: rgb(9 30 66 / 100%) 0px 0.5rem 1rem 0px;
+}
+
+/* initiation */
+.bg-gradient-2 {
+  background: linear-gradient(0deg, rgb(230, 252, 255), rgb(255, 255, 255)) 0%
+    0% / auto repeat scroll padding-box border-box rgb(178, 212, 255);
+}
+
+.card[data-true="true"]:focus {
+  background-color: white;
+}
+
+@layer components {
+  .card:first-child {
+    box-shadow: rgb(9 30 66 / 15%) 0px 0.5rem 1rem 0px !important;
+    @apply bg-white;
+  }
+  .card {
+    box-shadow: rgb(9 30 66 / 15%) 0px 0.5rem 1rem 0px;
+    @apply relative overflow-hidden bg-white before:content-[""] before:w-2 before:h-[100%] before:bg-blueskay  before:absolute before:top-0 before:left-0 before:z-0;
+  }
 }

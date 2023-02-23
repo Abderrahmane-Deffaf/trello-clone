@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     colors: {
       blue: "rgb(0, 101, 255)",
+      blueskay:"rgb(0, 199, 229)",
       white: "rgb(255,255,255)",
       black: "#000000",
+      transparent:"rgba(1,3,4,0)" ,
       gray: "rgb(223, 225, 230)",
       darkgray: "rgba(9, 30, 66, 0.5)",
       darkblue: "rgb(7, 71, 166)",

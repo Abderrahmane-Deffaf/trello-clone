@@ -12,7 +12,7 @@ const Navbar = () => {
   const [index, setIndex] = useState();
 
   return (
-    <div className=" sticky top-0 bg-white ">
+    <div className=" sticky top-0 bg-white shadow z-20">
       <div className="max-w-[1320px] m-auto">
         <div className="flex">
           <div className="p-4">
