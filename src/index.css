@@ -62,3 +62,29 @@
 .noscrollbar::-webkit-scrollbar {
   display: none;
 }
+
+/* features */
+.bg-gradient-3 {
+  background: url("./assets/elements/bgelement.svg") left center / contain
+      no-repeat scroll padding-box border-box,
+    url("./assets/elements/bgelementtwo.svg") right center / contain no-repeat
+      scroll padding-box border-box,
+    linear-gradient(240deg, rgb(0, 184, 217), rgb(0, 101, 255)) 0% 0% / auto
+      repeat scroll padding-box border-box rgb(0, 101, 255);
+}
+
+.reverse:last-child {
+  order: 3;
+}
+
+.gridsys {
+  display: grid;
+  grid-template-rows: 20% 40% 40%;
+}
+
+.area:first-child {
+  grid-row: 2/3;
+}
+.area:last-child {
+  grid-row: 3/4;
+}

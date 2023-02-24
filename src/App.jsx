@@ -5,6 +5,7 @@ import "./index.css";
 import Hero from "./components/Hero";
 import Initiation from "./components/Initiation";
 import Action from "./components/Action";
+import Features from "./components/Features";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Hero />
       <Initiation />
       <Action />
+      <Features />
     </div>
   );
 };
