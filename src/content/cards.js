@@ -3,7 +3,7 @@ import checklist from "../assets/icons/checklist.png";
 import contentfolder from "../assets/icons/contentfolder.png";
 import id from "../assets/icons/id.png";
 import megaphone from "../assets/icons/megaphone.png";
-import useCasesBreainstorming from "../assets/icons/useCasesBrainstorming.svg";
+import brain from "../assets/icons/brain.svg";
 
 export const cards = [
   {
@@ -13,7 +13,7 @@ export const cards = [
     text: "Organisez les tâches, respectez les délais et maintenez les membres de l'équipe en phase grâce à Trello.",
   },
   {
-    icon: useCasesBreainstorming,
+    icon: brain,
     title: "Brainstorming",
     color: "rgb(0, 199, 229)",
     text: "Stimulez la créativité de votre équipe et assurez-vous que les idées sont visibles, concertées et exploitables.",
