@@ -30,7 +30,7 @@
       repeat scroll padding-box border-box rgb(82, 67, 170);
 }
 .box-shadow {
-  box-shadow: rgb(9 30 66 / 100%) 0px 0.5rem 1rem 0px;
+  box-shadow: rgb(9 30 66 / 15%) 0px 0.5rem 1rem 0px;
 }
 
 /* initiation */
@@ -52,4 +52,13 @@
     box-shadow: rgb(9 30 66 / 15%) 0px 0.5rem 1rem 0px;
     @apply relative overflow-hidden bg-white before:content-[""] before:w-2 before:h-[100%] before:bg-blueskay  before:absolute before:top-0 before:left-0 before:z-0;
   }
+}
+
+/* action */
+.box-shadow-hover:hover {
+  box-shadow: rgb(9 30 66 / 30%) 0px 0.5rem 1rem 0px;
+}
+
+.noscrollbar::-webkit-scrollbar {
+  display: none;
 }

@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import "./index.css";
 import Hero from "./components/Hero";
 import Initiation from "./components/Initiation";
+import Action from "./components/Action";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Initiation />
+      <Action />
     </div>
   );
 };
