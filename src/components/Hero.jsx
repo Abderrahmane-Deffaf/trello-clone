@@ -1,6 +1,6 @@
 import React from "react";
 import vedio from "../assets/icons/vedio.svg";
-import illustration from "../assets/TrelloUiCollage_4x.webp";
+import illustration from "../assets/collage.webp";
 
 const Hero = () => {
   return (
@@ -32,7 +32,7 @@ const Hero = () => {
           <div>
             <a className="flex gap-1 hover:gap-2 w-fit">
               <span className="underline">Visionner la vidéo</span>
-              <img src={vedio} ></img>
+              <img src={vedio}></img>
             </a>
           </div>
         </div>
