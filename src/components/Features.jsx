@@ -3,7 +3,7 @@ import { features } from "../content/features";
 
 const Features = () => {
   return (
-    <div className="bg-gradient-3">
+    <div className="bg-gradient-3 mb-[6rem]">
       <div className="max-w-[1320px] gridsys m-auto px-[4rem] pt-[4rem] gap-10">
         <div className="text-white text-center flex flex-col gap-3 items-center row-span-1 ">
           <h3 className="text-3xl">
