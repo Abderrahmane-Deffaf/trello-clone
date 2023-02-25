@@ -7,6 +7,7 @@ import Initiation from "./components/Initiation";
 import Action from "./components/Action";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
+import Useage from "./components/Useage";
 
 const App = () => {
   return (
@@ -16,7 +17,9 @@ const App = () => {
       <Initiation />
       <Action />
       <Features />
+      <Useage />
       <Footer />
+
     </div>
   );
 };

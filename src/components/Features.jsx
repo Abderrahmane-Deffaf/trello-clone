@@ -20,8 +20,11 @@ const Features = () => {
         {features.map((Element) => {
           return (
             <div className="flex gap-3 bg-white p-4 rounded-xl h-full area overflow-hidden box-shadow">
-              <div className="basis-1/2 reverse">
-                <img className="w-full h-full object-top object-contain" src={Element.image} />
+              <div className="basis-1/2 reverse ">
+                <img
+                  className="w-full  h-full object-top object-contain"
+                  src={Element.image}
+                />
               </div>
               <div className="basis-1/2 flex flex-col gap-4 p-8">
                 <div className="flex gap-2 font-medium text-xl">

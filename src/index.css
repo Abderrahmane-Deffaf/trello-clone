@@ -74,7 +74,7 @@
 }
 
 .reverse:last-child {
-  order: 3;
+  order: 4;
 }
 
 .gridsys {
@@ -87,4 +87,11 @@
 }
 .area:last-child {
   grid-row: 3/4;
+}
+
+/* useage */
+
+.griddisplay {
+  display: grid;
+  grid-template-rows: 30% 10% 1fr 15%;
 }
