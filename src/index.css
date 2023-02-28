@@ -95,3 +95,26 @@
   display: grid;
   grid-template-rows: 30% 10% 1fr 15%;
 }
+
+/* clients */
+.bg-gradient-4 {
+      background: linear-gradient(0deg, rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto no-repeat scroll padding-box border-box transparent;
+}
+
+.purple-bg {
+  background: linear-gradient(60deg, rgb(101, 84, 192), rgb(249, 156, 219)) 0% 0% / auto repeat scroll padding-box border-box rgb(101, 84, 192);
+}
+
+.quote-bg {
+  background-image: url('./assets/elements/quote.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.skipbtn {
+  @apply bg-gray flex rounded-full p-1 ; 
+}
+
+.box-shadow-2 {
+  box-shadow: rgb(9 30 66 / 20%) 0px 3px 5px, rgb(9 30 66 / 31%) 0px 0px 1px;
+}

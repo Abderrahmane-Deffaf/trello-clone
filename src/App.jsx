@@ -8,6 +8,7 @@ import Action from "./components/Action";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Useage from "./components/Useage";
+import Clients from "./components/Clients";
 
 const App = () => {
   return (
@@ -18,8 +19,8 @@ const App = () => {
       <Action />
       <Features />
       <Useage />
+      <Clients />
       <Footer />
-
     </div>
   );
 };
