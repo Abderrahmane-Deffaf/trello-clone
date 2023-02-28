@@ -123,3 +123,8 @@
 .bg-gradient-5 {
   background: linear-gradient(rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto no-repeat scroll padding-box border-box transparent;
 }
+
+/* lancez */
+.bg-gradient-6 {
+  background: url('./assets/graphicleft.svg') left center / contain no-repeat scroll padding-box border-box, url('./assets/graphicright.svg') right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170)
+}

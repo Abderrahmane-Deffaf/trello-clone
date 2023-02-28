@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Useage from "./components/Useage";
 import Clients from "./components/Clients";
 import Partners from "./components/Partners";
+import Lancez from "./components/Lancez";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Useage />
       <Clients />
       <Partners />
+      <Lancez />
       <Footer />
     </div>
   );
