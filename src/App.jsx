@@ -9,6 +9,7 @@ import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Useage from "./components/Useage";
 import Clients from "./components/Clients";
+import Partners from "./components/Partners";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Features />
       <Useage />
       <Clients />
+      <Partners />
       <Footer />
     </div>
   );
