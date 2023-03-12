@@ -25,6 +25,8 @@
     "vite": "^4.1.4"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.24.10",
+    "@tanstack/react-query-devtools": "^4.24.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",

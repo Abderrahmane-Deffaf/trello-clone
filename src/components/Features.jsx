@@ -20,7 +20,7 @@ const Features = () => {
         {features.map((Element) => {
           return (
             <div className="flex gap-3 bg-white p-4 rounded-xl h-full area overflow-hidden box-shadow">
-              <div className="basis-1/2 reverse ">
+              <div className="basis-1/2 " style={{order: Element.order}}>
                 <img
                   className="w-full  h-full object-top object-contain"
                   src={Element.image}

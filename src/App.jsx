@@ -1,31 +1,30 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import Navbar from "./components/Navbar";
 import "./index.css";
-import Hero from "./components/Hero";
-import Initiation from "./components/Initiation";
-import Action from "./components/Action";
-import Features from "./components/Features";
-import Footer from "./components/Footer";
-import Useage from "./components/Useage";
-import Clients from "./components/Clients";
-import Partners from "./components/Partners";
-import Lancez from "./components/Lancez";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Main from "./Trello/Main";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: Infinity,
+      cacheTime: Infinity,
+    },
+  },
+});
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Initiation />
-      <Action />
-      <Features />
-      <Useage />
-      <Clients />
-      <Partners />
-      <Lancez />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <QueryClientProvider client={queryClient}>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/Main" element={<Main />}></Route>
+        </Routes>
+      </QueryClientProvider>
+    </BrowserRouter>
   );
 };
 
