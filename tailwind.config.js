@@ -23,7 +23,9 @@ module.exports = {
       hoveryelow: "rgb(255, 250, 229)",
       footerbg: "rgb(23, 43, 77)",
       footerbghover: "rgb(52, 69, 99)",
-      navbarbg: 'rgb(2, 106, 167)',
+      navbarbg: "rgb(2, 106, 167)",
+      navbarbglight: "rgb(103, 166, 202)",
+      navbghover: "rgb(2, 85, 134)",
     },
     fontFamily: {
       Poppins: ["Poppins", "sans-serif"],
