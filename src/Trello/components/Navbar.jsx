@@ -1,23 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/logowhite.svg";
-import drop from "../../assets/icons/droptwo.svg";
+import dropdown from "../../assets/icons/droptwo.svg";
 import { buttons } from "../constants/navbar";
 import notification from "../../assets/icons/notification.svg";
 import quetion from "../../assets/icons/quetion.svg";
+import profile from "../../assets/elements/profile.png";
+import { Workspaces } from "../subcomponents/Workspaces";
+import { Recent } from "../subcomponents/Recent";
+import Starred from "../subcomponents/Starred";
+import Templates from "../subcomponents/Templates";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [drop, setDrop] = useState(false);
+  const [index, setIndex] = useState(0);
+  const [oldindex, setOldindex] = useState(0);
+
   return (
-    <div className="bg-navbarbg flex justify-between p-4 items-center">
+    <div
+      className="bg-navbarbg flex justify-between min-w-full p-4 items-center relative"
+      onBlur={() => setDrop(false)}
+    >
       <div className="flex gap-4">
-        <div>
+        <Link to={"/Main"}>
           <img src={logo} />
-        </div>
+        </Link>
         <div className="flex gap-3 ">
-          {buttons.map((Element) => {
+          {buttons.map((Element, index) => {
             return (
-              <button className="flex p-[2px] items-center gap-2 hover:bg-navbghover text-white">
+              <button
+                onClick={(e) => {
+                  e.preventDefault;
+                  setIndex(index);
+                  if (!drop || (drop && oldindex !== index)) {
+                    setDrop(true);
+                    setOldindex(index);
+                  } else if (oldindex === index && drop) {
+                    setDrop(false);
+                    setOldindex(index);
+                  }
+                }}
+                className="flex p-[2px] items-center gap-2 hover:bg-navbghover text-white"
+              >
                 {Element}
-                <img src={drop} />
+                <img src={dropdown} />
               </button>
             );
           })}
@@ -25,7 +51,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex gap-4">
+      <div className="flex gap-4 items-center">
         <div>
           <form>
             <label
@@ -42,16 +68,25 @@ const Navbar = () => {
             </label>
           </form>
         </div>
-        <div>
-          <button>
-            <span className="material-symbols-outlined">notifications</span>
+        <div className="flex items-center gap-1">
+          <button className="flex">
+            <span className=" material-symbols-outlined">notifications</span>
           </button>
           <button>
             <img src={quetion} />
           </button>
-          <button></button>
+          <button>
+            <div className="w-[2rem] aspect-square ">
+              <img src={profile} />
+            </div>
+          </button>
         </div>
       </div>
+
+      <Workspaces drop={drop} index={index} />
+      <Recent drop={drop} index={index} />
+      <Starred drop={drop} index={index} />
+      <Templates drop={drop} index={index} />
     </div>
   );
 };

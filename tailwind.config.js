@@ -31,7 +31,16 @@ module.exports = {
       Poppins: ["Poppins", "sans-serif"],
       Notosans: ["Noto Sans", "sans - serif"],
     },
-    extend: {},
+    extend: {
+      screens: {
+        xs: "480px",
+        ss: "600px",
+        sm: "800px",
+        md: "1080px",
+        lg: "1200px",
+        xl: "1700px",
+      },
+    },
   },
   plugins: [],
 };
