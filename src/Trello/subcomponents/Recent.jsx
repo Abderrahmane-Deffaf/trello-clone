@@ -1,6 +1,6 @@
 import React from "react";
 import { recent } from "../constants/navbar";
-import illustration from "../../assets/recent.svg";
+import illustration from "../../assets/trello/graphics/recent.svg";
 
 export const Recent = ({ drop, index }) => {
   if (drop && index === 1) {

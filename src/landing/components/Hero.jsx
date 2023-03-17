@@ -1,6 +1,6 @@
 import React from "react";
-import vedio from "../assets/icons/vedio.svg";
-import illustration from "../assets/collage.webp";
+import vedio from "../../assets/landing/icons/vedio.svg";
+import illustration from "../../assets/landing/graphics/collage.webp";
 
 const Hero = () => {
   return (

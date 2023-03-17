@@ -1,5 +1,5 @@
 import React from "react";
-import rightarrow from "../assets/icons/rightarrow.svg";
+import rightarrow from "../../assets/landing/icons/rightarrow.svg";
 
 const Linkcomp = ({ content }) => {
   return (

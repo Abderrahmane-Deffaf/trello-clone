@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import logo from ".././assets/logo.svg";
+import logo from "../../assets/logos/logo.svg";
 import { links } from "../content/links";
 import Fonctionnalites from "../subComponents/Fonctionnalites";
 import Solutions from "../subComponents/Solutions";

@@ -1,7 +1,6 @@
 import React from "react";
 import Cards from "./Cards";
 import { solutions, solutionsLinks } from "../content/links";
-import rightarrow from "../assets/icons/rightarrow.svg";
 import Linkcomp from "../components/Linkcomp";
 
 const Solutions = ({ drop, index }) => {

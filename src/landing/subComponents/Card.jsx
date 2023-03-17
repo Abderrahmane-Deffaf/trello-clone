@@ -1,5 +1,5 @@
 import React from "react";
-import card from "../assets/card.png";
+import card from "../../assets/landing/graphics/card.png";
 
 const Card = () => {
   return (

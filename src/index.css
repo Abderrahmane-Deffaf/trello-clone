@@ -9,6 +9,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 /* formatting */
 @layer base {
   a {
@@ -19,14 +20,9 @@
   }
 }
 
-
 /* google icons */
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
 /* Navbar */
@@ -109,21 +105,23 @@
 
 /* clients */
 .bg-gradient-4 {
-      background: linear-gradient(0deg, rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto no-repeat scroll padding-box border-box transparent;
+  background: linear-gradient(0deg, rgb(230, 252, 255), rgb(255, 255, 255)) 0%
+    0% / auto no-repeat scroll padding-box border-box transparent;
 }
 
 .purple-bg {
-  background: linear-gradient(60deg, rgb(101, 84, 192), rgb(249, 156, 219)) 0% 0% / auto repeat scroll padding-box border-box rgb(101, 84, 192);
+  background: linear-gradient(60deg, rgb(101, 84, 192), rgb(249, 156, 219)) 0%
+    0% / auto repeat scroll padding-box border-box rgb(101, 84, 192);
 }
 
 .quote-bg {
-  background-image: url('./assets/elements/quote.svg');
+  background-image: url("./assets/elements/quote.svg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .skipbtn {
-  @apply bg-gray flex rounded-full p-1 ; 
+  @apply bg-gray flex rounded-full p-1;
 }
 
 .box-shadow-2 {
@@ -132,10 +130,26 @@
 
 /* partners */
 .bg-gradient-5 {
-  background: linear-gradient(rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% / auto no-repeat scroll padding-box border-box transparent;
+  background: linear-gradient(rgb(230, 252, 255), rgb(255, 255, 255)) 0% 0% /
+    auto no-repeat scroll padding-box border-box transparent;
 }
 
 /* lancez */
 .bg-gradient-6 {
-  background: url('./assets/graphicleft.svg') left center / contain no-repeat scroll padding-box border-box, url('./assets/graphicright.svg') right center / contain no-repeat scroll padding-box border-box, linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170)
+  background: url("./assets/graphicleft.svg") left center / contain no-repeat
+      scroll padding-box border-box,
+    url("./assets/graphicright.svg") right center / contain no-repeat scroll
+      padding-box border-box,
+    linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto
+      repeat scroll padding-box border-box rgb(82, 67, 170);
+}
+
+/* model  */
+.model {
+  @apply bg-darkgray w-full h-full  overflow-auto text-white fixed z-[1000]   flex justify-center items-center;
+}
+.sidebg {
+  background-image: url("./assets/trello/graphics/sidebg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

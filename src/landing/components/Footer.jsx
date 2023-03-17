@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../assets/logowhite.svg";
+import logo from "../../assets/logos/logowhite.svg";
 import { cards, social } from "../content/footer";
 import { languages } from "../content/footer";
-import language from "../assets/icons/language.svg";
+import language from "../../assets/landing/icons/language.svg";
 import { links } from "../content/footer";
 
 const Footer = () => {

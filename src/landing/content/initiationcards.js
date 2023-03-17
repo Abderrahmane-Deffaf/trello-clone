@@ -1,6 +1,6 @@
-import carte from "../assets/carte.webp";
-import tableux from "../assets/tableux.webp";
-import list from "../assets/list.webp";
+import carte from "../../assets/landing/graphics/carte.webp";
+import tableux from "../../assets/landing/graphics/tableux.webp";
+import list from "../../assets/landing/graphics/list.webp";
 
 export const initiation = [
   {

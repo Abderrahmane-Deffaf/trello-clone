@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import logo from "../../assets/logowhite.svg";
-import dropdown from "../../assets/icons/droptwo.svg";
+import logo from "../../assets/logos/logowhite.svg";
+import dropdown from "../../assets/landing/icons/droptwo.svg";
 import { buttons } from "../constants/navbar";
-import notification from "../../assets/icons/notification.svg";
-import quetion from "../../assets/icons/quetion.svg";
-import profile from "../../assets/elements/profile.png";
+import quetion from "../../assets/trello/icons/quetion.svg";
+import profile from "../../assets/trello/icons/profile.png";
 import { Workspaces } from "../subcomponents/Workspaces";
 import { Recent } from "../subcomponents/Recent";
 import Starred from "../subcomponents/Starred";
@@ -17,10 +16,7 @@ const Navbar = () => {
   const [oldindex, setOldindex] = useState(0);
 
   return (
-    <div
-      className="bg-navbarbg flex justify-between min-w-full p-4 items-center relative"
-      onBlur={() => setDrop(false)}
-    >
+    <div className="bg-navbarbg flex justify-between min-w-full p-4 items-center relative">
       <div className="flex gap-4">
         <Link to={"/Main"}>
           <img src={logo} />

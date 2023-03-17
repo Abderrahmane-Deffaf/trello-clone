@@ -1,9 +1,9 @@
-import calender from "../assets/icons/calender.png";
-import checklist from "../assets/icons/checklist.png";
-import contentfolder from "../assets/icons/contentfolder.png";
-import id from "../assets/icons/id.png";
-import megaphone from "../assets/icons/megaphone.png";
-import brain from "../assets/icons/brain.svg";
+import calender from "../../assets/landing/icons/calender.png";
+import checklist from "../../assets/landing/icons/checklist.png";
+import contentfolder from "../../assets/landing/icons/contentfolder.png";
+import id from "../../assets/landing/icons/id.png";
+import megaphone from "../../assets/landing/icons/megaphone.png";
+import brain from "../../assets/landing/icons/brain.svg";
 
 export const cards = [
   {

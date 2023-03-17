@@ -1,6 +1,6 @@
-import Greas from "../assets/gears.svg";
-import Integrations from "../assets/integrations.svg";
-import Search from "../assets/search.svg";
+import Greas from "../../assets/landing/graphics/gears.svg";
+import Integrations from "../../assets/landing/graphics/integrations.svg";
+import Search from "../../assets/landing/graphics/search.svg";
 
 export const infos = [
   {

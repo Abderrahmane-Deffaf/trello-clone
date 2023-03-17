@@ -1,4 +1,4 @@
-import drop from "../assets/icons/drop.svg";
+import drop from "../../assets/landing/icons/drop.svg";
 
 export const links = [
   {

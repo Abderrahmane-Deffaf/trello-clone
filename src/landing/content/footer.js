@@ -1,8 +1,8 @@
-import facebook from "../assets/social/facebook.svg";
-import instagram from "../assets/social/instagram.svg";
-import linkedin from "../assets/social/linkedin.svg";
-import twitter from "../assets/social/twitter.svg";
-import youtube from "../assets/social/youtube.svg";
+import facebook from "../../assets/landing/social/facebook.svg";
+import instagram from "../../assets/landing/social/instagram.svg";
+import linkedin from "../../assets/landing/social/linkedin.svg";
+import twitter from "../../assets/landing/social/twitter.svg";
+import youtube from "../../assets/landing/social/youtube.svg";
 
 export const cards = [
   {

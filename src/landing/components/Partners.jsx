@@ -1,5 +1,5 @@
 import React from 'react'
-import partners from '../assets/partners.svg' ; 
+import partners from "../../assets/landing/graphics/partners.svg"; 
 
 const Partners = () => {
   return (

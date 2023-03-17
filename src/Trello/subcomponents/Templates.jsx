@@ -1,5 +1,5 @@
 import React from "react";
-import templateimage from "../../assets/template.svg";
+import templateimage from "../../assets/trello/graphics/template.svg";
 
 const Templates = ({ drop, index }) => {
   if (drop && index === 3) {

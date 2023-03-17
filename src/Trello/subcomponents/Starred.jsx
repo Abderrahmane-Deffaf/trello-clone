@@ -1,6 +1,6 @@
 import React from "react";
 import { starred } from "../constants/navbar";
-import starredimage from "../../assets/starred.svg";
+import starredimage from "../../assets/trello/graphics/starred.svg";
 
 const Starred = ({ drop, index }) => {
   if (drop && index === 2) {

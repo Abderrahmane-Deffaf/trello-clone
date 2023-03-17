@@ -1,6 +1,6 @@
-import ptc from "../assets/ptc.svg";
-import thoughworks from "../assets/thoughtworks.svg";
-import womencode from "../assets/womencode.svg";
+import ptc from "../../assets/landing/graphics/ptc.svg";
+import thoughworks from "../../assets/landing/graphics/thoughtworks.svg";
+import womencode from "../../assets/landing/graphics/womencode.svg";
 
 export const feedbacks = [
   {

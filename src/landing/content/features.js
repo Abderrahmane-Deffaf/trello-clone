@@ -1,5 +1,5 @@
-import tiemline from "../assets/timeline.webp";
-import board from "../assets/board.webp";
+import tiemline from "../../assets/landing/graphics/timeline.webp";
+import board from "../../assets/landing/graphics/board.webp";
 
 export const features = [
   {
